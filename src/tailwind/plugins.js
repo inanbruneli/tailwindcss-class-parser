@@ -87,10 +87,10 @@ export const functionalPlugins = new Map([
         { scaleKey: "letterSpacing", ns: 'letterSpacing', class: ['letter-spacing'], type: 'length', supportNegative: true },
     ]],
     ["bg", [
+        { scaleKey: "backgroundColor", ns: 'backgroundColor', class: ['background-color'], type: 'color' },
         { scaleKey: "backgroundImage", ns: 'backgroundImage', class: ['background-image'], type: 'image' },
         { scaleKey: "backgroundPosition", ns: 'backgroundPosition', class: ['background-position'], type: 'position' },
         { scaleKey: "backgroundSize", ns: 'backgroundSize', class: ['background-size'], type: 'bg-size' },
-        { scaleKey: "backgroundColor", ns: 'backgroundColor', class: ['background-color'], type: 'color' },
     ]],
     ["from", [
         { scaleKey: "gradientColorStops", ns: 'gradientStopsFrom', class: ['--tw-gradient-from', '--tw-gradient-from-position'], type: 'color' },
